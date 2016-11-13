@@ -8,6 +8,7 @@
 html,body {
 	height:100%;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #335b7c;
 }
 
 header {
@@ -17,6 +18,8 @@ header {
 
 }
 
+
+}
 .arrow {
     width: 0;
     left: 50%;
@@ -75,6 +78,8 @@ nav {
 	position: fixed;
 	z-index: 99;
 	text-align:right;
+	background-image:url("../image/1.png");
+
 
 }
  
@@ -98,12 +103,12 @@ nav a:hover {
 
 .subSection {
 	height: 10%;
-	background-color:white;
+	background-color:#335b7c;
 
 }
 
 .sectOne {
-	background-image:url("../image/1022.jpg");
+	background-image:url("../image/1204.jpg");
 }
 
 .sectTwo {
@@ -111,7 +116,9 @@ nav a:hover {
 }
 
 .sectThree {
-	background-image:url("../image/80.jpg");
+	height: 5%;
+	margin-top:5px;
+
 }
 
 .button {
@@ -164,7 +171,7 @@ nav a:hover {
 }
 
 footer {
-	color: gray;
+	color:solid white;
 	text-align:center;
 	height: 30px;
 	padding-bottom: 80px;
